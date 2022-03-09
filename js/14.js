@@ -9,6 +9,7 @@ function largestCollatzChain(ceiling) {
     while (decrementFrom > 1) {
         let startAt = decrementFrom
         let count = 1
+
         while (startAt > 1) {
             if (startAt % 2 === 0) {
                 startAt /= 2
